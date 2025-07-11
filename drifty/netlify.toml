@@ -7,9 +7,9 @@
   # Directory to publish (React build output)
   publish = "build"
 
-  # Optional: Disable CI=true which can cause "treat warnings as errors"
-  [build.environment]
-    CI = "false"
+[build.environment]
+  CI = "false"
+  NODE_VERSION = "18"
 
 # Redirect all requests to index.html so the React Router can handle client-side routing
 [[redirects]]
